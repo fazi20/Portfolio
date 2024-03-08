@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            background-color: rgb(0, 0, 46);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        main hr {
+
+            border: 0;
+            background-color: white;
+            height: 1px;
+            margin: 40px 50px;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(1, 1, 75);
+            height: 50px;
+        }
+
+        .right ul {
+
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav ul li {
+
+            list-style: none;
+            color: white;
+            margin: 0px 20px;
+        }
+
+        nav ul li a {
+
+
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+
+
+            color: #8a2be2;
+            font-size: 1.04rem;
+
+        }
+
+        .left {
+
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+
+            width: 40%;
+            margin: 50px 0px;
+        }
+
+        .leftSection {
+
+            font-size: 2.5rem;
+        }
+
+        .leftSection .btn {
+
+            padding: 12px;
+            background: #01014b;
+            border: 1px solid white;
+            font-size: 15px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            margin: 20px 0px;
+
+        }
+
+        .rightSection img {
+
+            width: 100%;
+            /* margin: 50px 0px; */
+        }
+
+        .purple {
+
+            color: #8a2be2;
+        }
+
+        #element {
+
+            color: #8a2be2;
+        }
+
+        .secondSection {
+
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+
+            font-size: 1.5rem;
+        }
+
+        .text-grey {
+
+            color: grey;
+        }
+
+        .box {
+
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 2px;
+            background: white;
+            /* margin: 0px 123px; */
+
+
+        }
+
+        .img-top {
+
+            width: 25px;
+            position: relative;
+            top: -30px;
+            left: -10px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 10px;
+            color: gray;
+        }
+
+        .footer {
+            background-color: #010139;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 50px 10px;
+        }
+
+       
+
+        .footer ul {
+
+            list-style: none;
+        }
+
+   
+
+        .footer-rights {
+
+            text-align: center;
+            color: gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Fazi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="firstSection">
+
+            <div class="leftSection">Hi, My Name Is <span class="purple">Faizan</span>
+                <div> and I am a passionate </div>
+                <div><span id="element"></span></div>
+                <button class="btn">Download Resume</button>
+                <button class="btn"> Visiti Git</button>
+            </div>
+            <div class="rightSection">
+                <img data-aos="zoom-in" data-aos-duration="1000" src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What i have done before</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer (2022 -2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam repellat voluptates
+                        doloremque vero temporibus eveniet. Facilis suscipit debitis voluptas!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Nodejs Developer (2022 -2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam repellat voluptates
+                        doloremque vero temporibus eveniet. Facilis suscipit debitis voluptas!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        React Developer (2022 -2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam repellat voluptates
+                        doloremque vero temporibus eveniet. Facilis suscipit debitis voluptas!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer (2022 -2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam repellat voluptates
+                        doloremque vero temporibus eveniet. Facilis suscipit debitis voluptas!
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                Fazi's Developer Portfolio
+            </div>
+            <div class="second">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Servcies</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="third">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Servcies</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="four">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Servcies</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </footer>
+
+    <div class="footer-rights">
+        Copyright &copy www.faziportfolio.com | All rights reserved
+
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Full Stack Developer'],
+            typeSpeed: 30,
+        });
+    </script>
+
+<script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
